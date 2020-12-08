@@ -13,6 +13,10 @@
 		B9EB059F257BBCBC00C0D664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9EB059D257BBCBC00C0D664 /* Main.storyboard */; };
 		B9EB05A1257BBCBE00C0D664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9EB05A0257BBCBE00C0D664 /* Assets.xcassets */; };
 		B9EB05A4257BBCBE00C0D664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9EB05A2257BBCBE00C0D664 /* LaunchScreen.storyboard */; };
+		B9EB05AD257BD45C00C0D664 /* Pipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EB05AC257BD45C00C0D664 /* Pipeline.swift */; };
+		B9EB05B0257CF49100C0D664 /* PipeLineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EB05AF257CF49100C0D664 /* PipeLineType.swift */; };
+		B9EB05B8257CFD0700C0D664 /* RDWCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EB05B7257CFD0700C0D664 /* RDWCoordinate.swift */; };
+		B9EB05BB257E6CED00C0D664 /* SCNGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EB05BA257E6CED00C0D664 /* SCNGeometry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B9EB05A0257BBCBE00C0D664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9EB05A3257BBCBE00C0D664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9EB05A5257BBCBE00C0D664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9EB05AC257BD45C00C0D664 /* Pipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pipeline.swift; sourceTree = "<group>"; };
+		B9EB05AF257CF49100C0D664 /* PipeLineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipeLineType.swift; sourceTree = "<group>"; };
+		B9EB05B7257CFD0700C0D664 /* RDWCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDWCoordinate.swift; sourceTree = "<group>"; };
+		B9EB05BA257E6CED00C0D664 /* SCNGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNGeometry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		B9EB058B257BBCBC00C0D664 = {
 			isa = PBXGroup;
 			children = (
+				B9EB05BA257E6CED00C0D664 /* SCNGeometry.swift */,
 				B9EB0596257BBCBC00C0D664 /* BwLidar */,
 				B9EB0595257BBCBC00C0D664 /* Products */,
 			);
@@ -63,6 +72,9 @@
 				B9EB05A0257BBCBE00C0D664 /* Assets.xcassets */,
 				B9EB05A2257BBCBE00C0D664 /* LaunchScreen.storyboard */,
 				B9EB05A5257BBCBE00C0D664 /* Info.plist */,
+				B9EB05AC257BD45C00C0D664 /* Pipeline.swift */,
+				B9EB05AF257CF49100C0D664 /* PipeLineType.swift */,
+				B9EB05B7257CFD0700C0D664 /* RDWCoordinate.swift */,
 			);
 			path = BwLidar;
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			files = (
 				B9EB059A257BBCBC00C0D664 /* ViewController.swift in Sources */,
 				B9EB0598257BBCBC00C0D664 /* AppDelegate.swift in Sources */,
+				B9EB05B0257CF49100C0D664 /* PipeLineType.swift in Sources */,
+				B9EB05BB257E6CED00C0D664 /* SCNGeometry.swift in Sources */,
 				B9EB059C257BBCBC00C0D664 /* Experience.rcproject in Sources */,
+				B9EB05AD257BD45C00C0D664 /* Pipeline.swift in Sources */,
+				B9EB05B8257CFD0700C0D664 /* RDWCoordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
